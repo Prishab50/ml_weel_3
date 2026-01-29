@@ -107,6 +107,7 @@ cereal.mfr = (cereal.mfr.apply(lambda x: x if x in top_manufacturers
 # Verify the grouping worked
 cereal.mfr.value_counts()  # This is much better - only 3 groups now!
 
+
 # %%
 # Check other categorical variables
 cereal.type.value_counts()  # Looks good - just 2 types (Cold/Hot)
